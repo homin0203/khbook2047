@@ -1,0 +1,42 @@
+@charset "UTF-8";
+ul li a {
+text-decoration:none;
+color:#000080;
+display: block;
+width: 120px;
+height: 35px;
+background: #96c7f3;
+padding-top: 5px;
+}
+ul li a:hover {
+background: #260679;
+color: white;
+text-shadow: 2px 2px 5px black;
+}
+ul li {
+float:left;
+list-style: none;
+margin-top:60px;
+margin-right: 5px;
+padding-top: 10px;
+text-align: center;
+font-size: 16pt;
+font-weight: bold;
+}
+.box { /* 로그인 박스를 위한 style sheet */
+padding: 15px;
+width: 300px;
+height: 120px;
+text-align: center;
+background-color: #e3ffec;
+float: right;
+}
+#myinfo { /* 회원 정보 페이지를 위한 style sheet*/
+background-color:#e8e8ff;
+width: 300px;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+padding:15px 20px 15px 20px;
+}
