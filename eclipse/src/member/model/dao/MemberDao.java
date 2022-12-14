@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.List;
 
-import commom.jdbc.JdbcTemplate;
+import common.jdbc.JdbcTemplate;
 import member.model.vo.MemberVo;
 
 public class MemberDao {
